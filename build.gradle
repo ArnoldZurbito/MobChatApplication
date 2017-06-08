@@ -1,0 +1,32 @@
+buildscript {
+    ext {
+        setup = [compileSdk: 25,
+                 buildTools: "25.0.2",
+                 minSdk    : 14,
+                 targetSdk : 25]
+
+        versions = [supportLib: "25.3.0"]
+    }
+
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.0'
+        classpath 'com.novoda:bintray-release:0.3.4'
+        classpath 'com.google.gms:google-services:3.0.0'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+        maven { url "https://oss.sonatype.org/content/repositories/snapshots/" }
+    }
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.4'
+}

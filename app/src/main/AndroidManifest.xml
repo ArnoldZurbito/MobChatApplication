@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mikepenz.materialdrawer.app">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".CustomApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/CustomTheme">
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignupActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DrawerActivity"
+            android:theme="@style/MaterialDrawerTheme.TranslucentStatus" />
+        <activity
+            android:name=".CompactHeaderDrawerActivity"
+            android:label="@string/app_name"
+            android:theme="@style/CustomTheme" />
+        <activity
+            android:name=".PersistentDrawerActivity"
+            android:label="@string/app_name"
+            android:theme="@style/MaterialDrawerTheme.Light.TranslucentStatus" />
+        <activity
+            android:name=".ActionBarActivity"
+            android:theme="@style/MaterialDrawerTheme.ActionBar" />
+        <activity
+            android:name=".MenuDrawerActivity"
+            android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar" />
+        <activity
+            android:name=".NonTranslucentDrawerActivity"
+            android:theme="@style/MaterialDrawerTheme" />
+        <activity
+            android:name=".MultiDrawerActivity"
+            android:theme="@style/MaterialDrawerTheme.TranslucentStatus" />
+        <activity
+            android:name=".AdvancedActivity"
+            android:theme="@style/MaterialDrawerTheme.TranslucentStatus" />
+        <activity
+            android:name=".CustomContainerActivity"
+            android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar" />
+        <activity
+            android:name=".FragmentActivity"
+            android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar" />
+        <activity
+            android:name=".CollapsingToolbarActivity"
+            android:theme="@style/MaterialDrawerTheme.Light.DarkToolbar.TranslucentStatus" />
+         <activity
+         android:name=".CrossfadeDrawerLayoutActvitiy"
+         android:theme="@style/CustomTheme" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".GoogleSignInActivity" />
+    </application>
+
+</manifest>

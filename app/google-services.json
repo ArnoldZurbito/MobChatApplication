@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1008831891541",
+    "firebase_url": "https://zurnhold.firebaseio.com",
+    "project_id": "zurnhold",
+    "storage_bucket": "zurnhold.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008831891541:android:d842af33038fad5c",
+        "android_client_info": {
+          "package_name": "com.mikepenz.materialdrawer.app.debug"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008831891541-12cugp6r68j8lort07g1vvirmvt03l1c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvkJA8itHW0kiCx5cpQLwCZhfDTIE3h08"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
